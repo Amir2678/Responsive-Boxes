@@ -5,21 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Responsive Boxes</title>
 </head>
 <body>
     <div class="all">
         <div class="container">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box" data-aos="fade-right"></div>
+            <div class="box" data-aos="fade-left"></div>
+            <div class="box" data-aos="flip-right"></div>
+            <div class="box" data-aos="flip-left"></div>
+            <div class="box" data-aos="flip-up"></div>
+            <div class="box" data-aos="flip-down"></div>
+            <div class="box" data-aos="zoom-in"></div>
+            <div class="box" data-aos="zoom-in-up"></div>
         </div>
     </div>
-
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
